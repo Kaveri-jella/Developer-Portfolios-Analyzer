@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Developer Portfolio Analyzer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Developer Portfolio Analyzer</h1>
+
+<form>
+
+<label>Name</label>
+<input type="text" id="name"><br><br>
+
+<label>Skills</label>
+<input type="text" id="skills"><br><br>
+
+<label>Number of Projects</label>
+<input type="number" id="projects"><br><br>
+
+<label>GitHub Link</label>
+<input type="text" id="github"><br><br>
+
+<label>Resume Available?</label>
+<select id="resume">
+<option value="yes">Yes</option>
+<option value="no">No</option>
+</select>
+
+<br><br>
+
+<button type="button" onclick="analyzePortfolio()">Analyze</button>
+
+</form>
+
+<h2 id="result"></h2>
+<p id="suggestion"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
